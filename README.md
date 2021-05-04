@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://your-solution-url.com)
+- Live Site URL: [Live Site URL](https://huddle-home-page.netlify.app/)
 
 ## My process
 
@@ -77,6 +77,6 @@ I used the css code below to achieve this:
 ```
 
 ## Author
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Adekola Olawale](https://studiogenix.netlify.app)
+- Frontend Mentor - [@Kola92](https://www.frontendmentor.io/profile/Kola92)
+- Twitter - [@olawale_adekola](https://www.twitter.com/olawale_adekola)
