@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+.page-container {
+  padding: 1.5rem 2.6rem 2.3rem 2.3rem;
+  /* padding-top: 1.5rem;
+  padding-right: 2.6rem; */
+  background-image: url("../images/bg-mobile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.page-container p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.logo {
+  text-align: left;
+  margin-bottom: 64px;
+}
+.illustration-mockup img {
+  width: 100%;
+  height: 100%;
+}
+.page-heading {
+  margin-bottom: 15px;
+  margin-top: 54px;
+}
+.page-heading h1 {
+  line-height: 1.2;
+  font-size: 1.4rem;
+}
+.reg-button {
+  margin-top: 23px;
+}
+.reg-button button {
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  border-radius: 36px;
+  border-color: transparent;
+  padding: 7px 71px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+.reg-button button:hover {
+  background-color: #e781e7;
+  color: white;
+  cursor: pointer;
+}
+.reg-button button:focus {
+  background-color: #e781e7;
+  color: white;
+}
+.social-media-btns {
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+}
+.social-media-btns ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.social-media-btns ul li {
+  /* padding: 8px;
+  border: 1px solid white;
+  border-radius: 32px; */
+  margin-right: 10px;
+}
+.social-media-btns ul li:last-of-type {
+  margin-right: 0;
+}
+.social-media-btns ul li a i {
+  width: 30px;
+  border: 1px solid white;
+  height: 30px;
+  border-radius: 30px;
+  padding-top: 5px;
+  text-align: center;
+}
+.social-media-btns ul li a i:hover,
+.social-media-btns ul li a i:focus {
+  color: #fd4fbe;
+  border: 1px solid #fd4fbe;
+}
+.fab {
+  color: white;
+}
+footer {
+  margin-bottom: 20px;
+}
+footer a {
+  background-color: white;
+}
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  padding: 5px;
+}
+
+/* Media queries */
+@media screen and (min-width: 800px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+  }
+  .page-container {
+    background-image: url('../images/bg-desktop.svg');
+    background-position-y: -23px;
+  }
+  .social-media-btns ul {
+    justify-content: flex-end;
+  }
+  .page-heading {
+        margin-top: 26px;
+  }
+  .right-grid {
+    text-align:left;
+  }
+  .reg-button button {
+    padding: 7px 51px;
+  }
+}
+
+/* Large screen desktop */
+@media screen and (min-width:1440px) {
+  .page-heading h1 {
+    font-size: 2.5rem;
+  }
+  .page-container p {
+    font-size: 1.6rem;
+  }
+  .reg-button button {
+    font-size: 1.38rem;
+  }
+}
